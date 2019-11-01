@@ -1,0 +1,23 @@
+{
+	"city":[
+		{
+			"cityname" :"Uttrakhand"
+		},
+		{
+			"cityname" :"Agra"
+		},
+		{
+			"cityname" :"Jharkhand"
+		},
+		{
+			"cityname" :"New Delhi"
+		},
+		{
+			"cityname" :"Mumbai"
+		},
+		{
+			"cityname" :"Pune"
+		}
+		
+		]
+}
