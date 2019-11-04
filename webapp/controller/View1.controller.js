@@ -15,6 +15,7 @@ sap.ui.define([
 					template: new sap.m.StandardListItem({
 						title: "{city>cityname}"
 					})
+<<<<<<< HEAD
                   //check
 				});
 			// } else {
@@ -40,6 +41,32 @@ sap.ui.define([
 			evt.getSource().getBinding("items").filter([]);
 		} 
 	
+=======
+
+				});
+			// } else {
+			// 	oDialog.bindAggregation("items", {
+			// 		path: "country>/country",
+			// 		template: new sap.m.StandardListItem({
+			// 			title: "{country>countryname}"
+
+			// 		})
+
+			// 	});
+				
+			// }
+			oDialog.open();
+		},
+		_handleValueHelpClose: function (evt) {
+			
+			var oSelectedItem = evt.getParameter("selectedItem");
+			if (oSelectedItem) {
+				var productInput = this.byId("Key1");
+				productInput.setValue(oSelectedItem.getTitle());
+			}
+			evt.getSource().getBinding("items").filter([]);
+		} 
+>>>>>>> refs/heads/master
 
 	});
 });
