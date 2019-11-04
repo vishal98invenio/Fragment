@@ -1,0 +1,20 @@
+<mvc:View controllerName="Fragments.AssignmentUI5.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+ xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<f:SimpleForm editable="true" layout="ResponsiveGridLayout">
+							<Label text="City"></Label>
+							<Input id ="Key1" showValueHelp="true" valueHelpRequest="onValueHelpRequested"></Input>
+							
+						
+						</f:SimpleForm>
+						
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
