@@ -8,8 +8,6 @@
 						<f:SimpleForm editable="true" layout="ResponsiveGridLayout">
 							<Label text="City"></Label>
 							<Input id ="Key1" showValueHelp="true" valueHelpRequest="onValueHelpRequested"></Input>
-							
-						
 						</f:SimpleForm>
 						
 					</content>

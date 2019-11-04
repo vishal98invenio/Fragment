@@ -15,7 +15,7 @@ sap.ui.define([
 					template: new sap.m.StandardListItem({
 						title: "{city>cityname}"
 					})
-
+                  //check
 				});
 			// } else {
 			// 	oDialog.bindAggregation("items", {
